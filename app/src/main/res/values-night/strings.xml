@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="article_image">Article Image</string>
+    <string name="watch_icon">Watch Icon</string>
+    <string name="logo_icon">Logo Icon</string>
+    <string name="search_icon">Search Icon</string>
+    <string name="back_icon">Back Icon</string>
+    <string name="bookmark_icon">Bookmark Icon</string>
+    <string name="share_icon">Share Icon</string>
+    <string name="browse_icon">Browse Icon</string>
+    <string name="bookmark">Bookmarks</string>
+</resources>
