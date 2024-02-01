@@ -116,7 +116,8 @@ fun NewsNavigator() {
                 navController.previousBackStackEntry?.savedStateHandle?.get<Article?>("article")?.let {article ->
                     DetailsScreen(article = article,
                         event = viewModel::onEvent,
-                        navigateUp = {navController.navigateUp()})
+                        navigateUp = {navController.navigateUp()
+                            navController.previousBackStackEntry?.savedStateHandle?.remove<Article?>("article")})
                 }
             }
             composable(Route.BookmarkScreen.route){

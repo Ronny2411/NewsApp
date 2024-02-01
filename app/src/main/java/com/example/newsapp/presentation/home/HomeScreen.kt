@@ -58,7 +58,7 @@ fun HomeScreen(
         .background(if (isSystemInDarkTheme()) Color.Black else Color.White)
         .padding(top = MediumPadding1)
         .statusBarsPadding()) {
-        Image(painter = painterResource(id = R.drawable.ic_logo),
+        Image(painter = painterResource(id = R.drawable.ic_logo_horizontal),
             contentDescription = stringResource(R.string.logo_icon),
             modifier = Modifier
                 .width(LogoWidth)

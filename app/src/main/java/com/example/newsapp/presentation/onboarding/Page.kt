@@ -10,13 +10,14 @@ data class Page(
 )
 
 val pages = listOf(
-    Page("Dummy Title for Onboarding Page 1",
-        "Dummy Description for onboarding page Dummy Description for onboarding page",
+    Page("Search worldwide news",
+        "Locate articles and breaking news headlines from news sources and blogs across the web",
         R.drawable.onboarding1),
-    Page("Dummy Title for Onboarding Page 2",
-        "Dummy Description for onboarding page Dummy Description for onboarding page",
+    Page("First voice, last word",
+        "India's leading English news website that reaches you directly on your device of choice",
         R.drawable.onboarding2),
-    Page("Dummy Title for Onboarding Page 3",
-        "Dummy Description for onboarding page Dummy Description for onboarding page",
+    Page("Showcase",
+        "Experience our diverse range of multimedia stories and deep coverage across topics from " +
+                "current affairs to arts and beyond",
         R.drawable.onboarding3)
 )

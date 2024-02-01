@@ -2,6 +2,7 @@ package com.example.newsapp.presentation.details
 
 import android.content.Intent
 import android.net.Uri
+import androidx.activity.compose.BackHandler
 import androidx.compose.foundation.background
 import androidx.compose.foundation.isSystemInDarkTheme
 import androidx.compose.foundation.layout.Column
@@ -37,6 +38,10 @@ fun DetailsScreen(
     navigateUp:()->Unit
 ) {
     val context = LocalContext.current
+
+    BackHandler {
+        navigateUp()
+    }
 
     Column(
         modifier = Modifier
