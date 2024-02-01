@@ -20,4 +20,5 @@ Stay ahead of the curve with our sleek and intuitive News App, built with the la
 🚀 Our Commitment:
 
 We've worked tirelessly to deliver a reliable and feature-rich News App. Your feedback is crucial as we strive to provide an app that caters to your news-reading needs. Download now and embark on a journey of seamless information consumption!
+
 https://github.com/Ronny2411/NewsApp/assets/41182036/73235091-ff50-4aa0-9317-8e94af30570e
